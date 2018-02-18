@@ -29,8 +29,7 @@
         .load(page)
         .then(menu.close.bind(menu));
     };
-
-  </script>
+   </script>
 </head>
 <body>
   <ons-splitter>
@@ -45,6 +44,9 @@
           </ons-list-item>
           <ons-list-item onclick="fn.load('about.html')" tappable>
             About
+          </ons-list-item>
+          <ons-list-item onclick="fn.load('ball.html')" tappable>
+            BALL
           </ons-list-item>
         </ons-list>
       </ons-page>
@@ -61,11 +63,11 @@
           </ons-toolbar-button>
         </div>
         <div class="center">
-          Main
+          名古屋大学医学部ソフトテニス
         </div>
       </ons-toolbar>
       <p style="text-align: center; opacity: 0.6; padding-top: 20px;">
-        Swipe right to open the menu!
+        右にスワイプ！
       </p>
     </ons-page>
   </ons-template>
@@ -84,7 +86,9 @@
     </ons-toolbar>
   </ons-page>
   </ons-template>
+    
 
+    
   <ons-template id="about.html">
   <ons-page>
     <ons-toolbar>
